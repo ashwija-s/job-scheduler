@@ -1,3 +1,5 @@
+> Assignment: High-Throughput Job Scheduler (Segment B – B1.0)
+
 # High-Throughput Job Scheduler
 
 This project implements a simple, scalable job scheduler capable of executing scheduled HTTP jobs with at-least-once semantics. The system supports job creation, scheduled execution, execution tracking, and basic observability.
@@ -94,4 +96,5 @@ Returns the last 5 execution records for a given job, including:
 ## Experience Working on This Problem
 
 This assignment required balancing system design with practical implementation under time constraints. The most interesting aspect was handling scheduling precision and execution guarantees while keeping the system simple and explainable. With more time, the system could be extended for higher availability and scale.
+
 
